@@ -1,0 +1,98 @@
+ARRAYS:
+
+Basic Operations
+Access element → arr[i]
+Update element
+Traverse array
+Find length → arr.length
+Reverse array
+Copy array
+Subarray
+
+STACK:
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort
+
+STRINGS:
+Access character → charAt()
+Length → length()
+Substring
+Compare strings
+Convert to array
+
+STACK:
+push
+pop
+peek
+isEmpty
+
+QUEUE:
+enqueue (add)
+dequeue (remove)
+peek
+isEmpty
+
+HASHING:
+HashMap Operations
+HashMap<Integer,Integer> map = new HashMap<>();
+map.put(key,value);
+map.get(key);
+map.containsKey(key);
+map.remove(key);
+HashSet
+HashSet<Integer> set = new HashSet<>();
+set.add(x);
+set.contains(x);
+set.remove(x);
+
+
+ARRAYLIST:
+ArrayList<Integer> list = new ArrayList<>();
+list.add(10);
+list.get(i);
+list.remove(i);
+list.size();
+
+
+LINKDELIST:
+insert
+delete
+traverse
+reverse
+Java built-in:
+LinkedList<Integer> list = new LinkedList<>();
+
+
+RECURSIVE BASICS:
+base case
+recursive call
+stack memory
+
+BIANRY SEARCH:
+
+
+PREFIX SUM:
+
+
+TWO POINTER TECHNIQUE:
+
+
+SLIDING WINDOW:
+
+BIT MANIPULATION:
+AND &
+OR |
+XOR ^
+Left shift <<
+Right shift >>
+
+COMPLEXITY ANALYSIS:
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n²)
