@@ -1,12 +1,12 @@
 ARRAYS:
 
-Basic Operations
-Access element → arr[i]
-Update element
-Traverse array
-Find length → arr.length
-Reverse array
-Copy array
+Basic Operations DONE
+Access element → arr[i] DONE
+Update element DONE
+Traverse array DONE
+Find length → arr.length DONE
+Reverse array 
+Copy array DONE
 Subarray
 
 STACK:
