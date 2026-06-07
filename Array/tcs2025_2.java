@@ -25,8 +25,14 @@ public class tcs2025_2{
         System.out.println(Arrays.toString(arrstudents));
         System.out.println(board);
 
-        int moves=0;    
+        //moves code remaining
+
+        int moves=0; 
+        for(int i=0; i<n; i++){
+            
+        }
         return moves;
+        
     }
         
 
