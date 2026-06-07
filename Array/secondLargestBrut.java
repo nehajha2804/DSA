@@ -10,6 +10,8 @@ public class secondLargestBrut{
         Arrays.sort(arr);
         int n=arr.length;
         int largest=arr[n-1];
+        //bcoz the array is already sorted we cant just select arr[n-2] bcoz if it is same as 
+        //(n-1)th then ut wont be seond largest.
         for(int i=n-2;i>=0;i--){
             if(arr[i]!=largest){
                 return arr[i];
