@@ -1,17 +1,6 @@
 class besttimeToSellStock{
     public int maxProfit(int[] prices) {
     
-        // BRUTE FORCE LOGIC:
-
-        // for(int i=0;i<prices.length;i++){
-        //     for(int j=i+1;j<prices.length;j++){
-        //         difference=prices[j]-prices[i];
-        //         if(difference>profit){
-        //             profit=difference;
-        //         }
-        //     }
-        // }
-
 
         int min_price=Integer.MAX_VALUE;
         int profit=0;
