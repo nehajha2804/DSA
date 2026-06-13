@@ -1,7 +1,6 @@
 class besttimeToSellStock{
     public int maxProfit(int[] prices) {
-    
-
+        
         int min_price=Integer.MAX_VALUE;
         int profit=0;
 
