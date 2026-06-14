@@ -1,9 +1,9 @@
 PRIORITY NEETCODE:
 
 **Day 1 — Two Pointers + Sliding Window (Arrays)**
-1. Two Sum (if not done) — hashmap warm-up
-2. Valid Palindrome
-3. Container With Most Water
+1. Two Sum (if not done)  ✅
+2. Valid Palindrome ✅
+3. Container With Most Water ✅
 4. 3Sum
 5. Best Time to Buy and Sell Stock
 6. Longest Substring Without Repeating Characters
