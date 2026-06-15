@@ -4,8 +4,8 @@ PRIORITY NEETCODE:
 1. Two Sum (if not done)  ✅
 2. Valid Palindrome ✅
 3. Container With Most Water ✅
-4. 3Sum
-5. Best Time to Buy and Sell Stock
+4. 3Sum ✅
+5. Best Time to Buy and Sell Stock ✅
 6. Longest Substring Without Repeating Characters
 
 **Day 2 — Prefix Sums, Kadane's, Sorting-based Arrays**
