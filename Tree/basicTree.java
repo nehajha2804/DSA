@@ -3,11 +3,12 @@ class TreeNode{
     TreeNode left;
     TreeNode right;
 
-    TreeNode(int val, TreeNode right, TreeNode left){
-        this.val=val;
-        this.left=left;
-        this.right=right;
-    }
+    //Below costructore is messy to right.
+    // TreeNode(int val, TreeNode right, TreeNode left){
+    //     this.val=val;
+    //     this.left=left;
+    //     this.right=right;
+    // }
 
      TreeNode(int val){
         this.val=val;
@@ -19,7 +20,13 @@ class TreeNode{
 
 public class basicTree{
     public static void main(String args[]){
-        TreeNode root = new TreeNode (1, new TreeNode(2), new TreeNode(3));
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        System.out.print(root.toString());
+        
       
     }
 }
+
+
