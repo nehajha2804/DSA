@@ -1,32 +1,28 @@
 class TreeNode{
-    int val;
+    int value;
     TreeNode left;
     TreeNode right;
 
-    //Below costructore is messy to right.
-    // TreeNode(int val, TreeNode right, TreeNode left){
-    //     this.val=val;
-    //     this.left=left;
-    //     this.right=right;
-    // }
-
-     TreeNode(int val){
-        this.val=val;
-        this.left=null;
-        this.right=null;
+    TreeNode(int value){
+        this.value = value;
     }
 
+   
 }
 
 public class basicTree{
     public static void main(String args[]){
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        System.out.print(root.toString());
-        
-      
+
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(3);
+        root.right = new TreeNode(4);
+        root.left.left= new TreeNode(8);
+        root.left.right= new TreeNode(6);
+        root.right.left= new TreeNode(7);
+        root.right.right= new TreeNode(0);
+
+        System.out.println(root.toString());
+
     }
 }
-
 
