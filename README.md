@@ -21,7 +21,9 @@ PRIORITY NEETCODE:
 14. Number of Islands
 15. Rotting Oranges
 16. Course Schedule (BFS/topological — good if time permits)
-Basic tree operations done 
+
+basic tree operations done
+>>>>>>> 273697ff1d5dcff8e3b780a13b1bce8cda005f78
 
 **Day 4 — Mixed Mock + Revision**
 17. Word Ladder (BFS string transformation — common NQT-style)
