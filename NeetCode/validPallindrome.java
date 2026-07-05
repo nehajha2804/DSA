@@ -1,27 +1,26 @@
 public class validPallindrome{
     public static void main(String args[]){
-        String s = "race car";
-        System.out.println(isPallindrome(s));
-
+        String s = "racecar";
+        System.out.println(isPallindrome((s)));
+       
     }
-
     public static boolean isPallindrome(String s){
         int left = 0;
-        int right = s.length()-1;
-
+        int right =s.length()-1;
         while(left<right){
-            while((left<right) && !Character.isLetterOrDigit(s.charAt(left))){
+            while(left<right && !Character.isLetterOrDigit(s.charAt(left))){
                 left++;
             }
 
-            while((left<right) && !Character.isLetterOrDigit(s.charAt(right))){
+            while(left<right && !Character.isLetterOrDigit(s.charAt(right))){
                 right--;
             }
 
-            if(Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))){
+            if(Character.toLowerCase(s.charAt(left))!=
+            Character.toUpperCase(s.charAt(right))){
                 return false;
             }
         }
-        return true;
+    return true;
     }
 }
