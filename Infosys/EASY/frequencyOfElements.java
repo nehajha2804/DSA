@@ -1,6 +1,5 @@
 import java.util.Collection;
 import java.util.HashMap;
-
 public class frequencyOfElements {
 
     public static void main(String[] args) {
