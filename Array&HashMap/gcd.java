@@ -15,7 +15,7 @@ public class gcd{
  public static int gcd(int a, int b){
     while(b!=0){
         int temp=b;
-        b=a%b; // '%'' gives remainder
+        b=a%b; // '%' gives remainder
         a=temp;
     }
     return a;
