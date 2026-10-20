@@ -11,20 +11,20 @@ public class groupAnanagram{
     }
 
     public static List<List<String>> isAnangram (String strs[]){
-        HashMap <String, List<String>> map = new HashMap<>();
+       HashMap <String, List<String>> map = new HashMap <>();
+       for(String str:strs){
+        char[] s=str.toCharArray();
+        Arrays.sort(s);
+        String S = new String(s);
 
-        for(String str : strs){
-            char s[] = str.toCharArray();
-            Arrays.sort(s);
-            String sorted = new String(s);
-
-            if(!map.containsKey(sorted)){
-                map.put(sorted, new ArrayList<>());
-            }
-
-            map.get(sorted).add(str);
+        if(!map.containsKey(S)){
+            map.put(S,new ArrayList<>());
         }
-
-        return new ArrayList<>(map.values());
+            map.get(S).add(str);
+       
+        System.out.println(map.keySet());
+      
     }
+     return new ArrayList<>(map.values());
+}
 }
